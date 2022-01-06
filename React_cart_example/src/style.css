@@ -1,0 +1,194 @@
+body{
+    box-sizing: border-box;
+    background-color: rgba(134, 248, 59, 0.5);
+}
+.nav{
+    position: fixed;
+    top:1%;
+    left: 10%;
+}
+
+.nav, li{
+    text-decoration: none;
+    display: inline-block;
+    padding-left: 10px;
+    margin-left: 50px;
+    font-variant-caps: all-small-caps;
+    font-size: 24px;
+    align-content: center;  
+}
+li a { 
+    color:rgb(0, 173, 253);
+    display: inline-block;
+    
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    transition: all 0.5s ease-in 0s;
+  }
+li a:hover{
+    color:rgb(163, 51, 255);
+}
+.content{
+    align-items: center;
+    margin-left: 50px;
+    padding-top: 50px;
+}
+
+form{
+    box-sizing: border-box;
+    width: 350px;
+    height: 150px;
+    padding : 30px;
+    margin-left: 100px;
+    font-size: 18px;
+    border: 1px greenyellow;
+    border-style: ridge;
+    border-radius: 5px;
+    background-color: rgba(50, 153, 156, 0.2);
+}
+option{
+    background-color: rgba(50, 153, 156, 0.4);
+}
+select{
+    margin: 15px;
+}
+
+.cajevi{
+    box-sizing: border-box;
+    margin-left: 100px;
+    width: 70%;
+}
+#caj{
+    display: block;
+    padding: 20px;
+    border-bottom: 1px solid rgba(113, 170, 22, 0.8);
+    border-left: none;
+    border-right: none;
+    width: 23%;
+    transition: width 2s linear 0s;
+}
+#caj:hover{
+    width: 60%;
+}
+.btnDet:hover{
+    color: rgb(102, 218, 7) ;
+}
+.btnDet{
+    position: absolute;
+    left: 33%;
+    color: rgb(10, 112, 180) ;
+    font-size: 20px;
+    font-variant-caps: small-caps ;
+    transition: color 2s ease-in 0s;
+    text-decoration: none;
+    text-shadow: 2px 1px rgba(15, 97, 100, 0.5);
+}
+
+.Detalji{
+    margin-left: 50px;
+}
+
+p{
+    width: 60%;
+}
+img{
+    padding: 20px;
+}
+
+#cijena{
+    position: absolute;
+    top:37%;
+}
+#pripr{
+    position: absolute;
+    top:39%;
+    left: 25%;
+}
+#cartbtn{
+    border: 1px solid rgb(87, 114, 14);
+    width: 30%;
+    text-align: center;
+    padding: 7px;
+    position: absolute;
+    top:42%;
+    left: 30%;
+    margin-left:3%;
+}
+
+.modalContainer{
+    z-index: 1000;
+    box-shadow: 20px 20px 40px 1px #656565;
+    position: absolute;
+    width:350px;
+    height:150px;
+    left:55%;
+    top:15%;
+    background-color: rgba(53, 95, 173, 0.95);
+    border: none 1px solid;
+    border-radius: 3px;
+}
+
+.btnModal, .btnModal2{
+    padding: 5px;
+    margin-left: 10px;
+    background-color:rgba(95, 158, 160, 0);
+    text-decoration: none;
+    font-size: 20px;
+    font-family: 'Times New Roman';   
+    color:chartreuse;
+    border: none;
+}
+.btnModal{
+    position:relative;
+    left: 60%;
+}
+
+.btnModal2{
+    position:relative;
+    left: 5%;
+}
+#Modal{
+    font-stretch: expanded;
+    padding-top:15px;
+    color:rgb(4, 39, 15);
+    text-align: center;
+    font-size: 20px;
+    width:100%;
+}
+#stanje{
+    display:grid;
+    font-variant-caps:all-petite-caps;
+    position: absolute;
+    width:max-content;
+    left:50%;
+    top:0%;
+}
+h3{
+    margin:5px;
+}
+h2{
+    margin-left:20px;
+}
+.Cart{
+    margin-left:50px;
+    height:max-content;
+}
+.spanCart{
+    position:relative;
+    left:20%;
+    padding:5px;
+    font-style: oblique;
+}
+#lista{
+    font-size: 20px;
+    font-style: oblique;
+    font-variant: small-caps;
+}
+
+
+#smth{
+    background-color: rgba(14, 95, 55, 0.5);
+    border-radius: 5px;
+    height:max-content;
+}
