@@ -1,0 +1,42 @@
+{
+    
+    "firme":{ "logo":"",
+        "company":"Organica",
+        "country":"England",
+        "description":"",
+        "email":"organicaLtd@eng.co.uk",
+        "products":["coconut delight", "nougat delight", "marzipan dream"]
+    },
+    "fire": { 
+        "logo":"",
+            "company":"EcoFinia",
+            "country":"Germany",
+            "description":"Organic ingredients, fair prices throughout the supply chain and sustainable packaging materials are just as much a part of honest chocolate. For the sake of the environment, we try to do without anything that causes harm. That’s why plastic, palm oil and questionable flavourings are definitely out of the question for us …",
+            "email":"contact@ichoc.de"
+    
+    }, "f":{ 
+        "logo":"https://veganz.com/wp-content/uploads/2019/07/veganz_logo.svg",
+            "company":"Veganz Group Inc",
+            "country":"Germany",
+            "description":"Founded in Berlin in 2011, we became known as the first vegan supermarket chain in Europe and just a few years later managed to break into the vegan niche with a colourful array of products and a life-affirming company philosophy. Our vision: motivating people to adopt a plant-based lifestyle as well acting more responsibly towards our environment, thereby creating a sustainable future for all living beings on the planet.​​ Even our packaging has its eye on the protection of the environment: compostable internal wrapping film made from recycled plastic, cardboard sleeves free from mineral oil, or the transparent Sustainability Score – these are our contribution to a more sustainable world – Good for you, better for everyone.",
+            "email":"contactus@veganz.de"
+    
+    }
+    ,
+    "pr":{
+        "naziv":"marzipan dream",
+        "vrsta":"vegan",
+        "cijena": 4.00, 
+        "tezina":"40 g",
+        "slika":"https://images.naturalcollection.com/images/326848-organica-organic-marzipan-dark-chocolate-bar-updated-1.jpg",
+        "sastojci":" Marzipan 20% (Almonds*, Raw Sugar Cane*, Invert Sugar*, Water, Ethanol*), Dark Chocolate* 20% (Cocoa Mass*, Raw Sugar Cane*, Cocoa Butter*, Vanilla*) Corn Syrup*, Corn Powder*, Tapioca Flour*, Palm Oil*.* Organically Produced. "
+    },
+    "pro":{
+        "naziv":"nougat delight",
+        "vrsta":"vegan",
+        "cijena": 4.00, 
+        "tezina":"40 g",
+        "slika":"https://images.naturalcollection.com/images/326848-organica-organic-marzipan-dark-chocolate-bar-updated-1.jpg",
+        "sastojci":" Marzipan 20% (Almonds*, Raw Sugar Cane*, Invert Sugar*, Water, Ethanol*), Dark Chocolate* 20% (Cocoa Mass*, Raw Sugar Cane*, Cocoa Butter*, Vanilla*) Corn Syrup*, Corn Powder*, Tapioca Flour*, Palm Oil*.* Organically Produced. "
+    }
+}
