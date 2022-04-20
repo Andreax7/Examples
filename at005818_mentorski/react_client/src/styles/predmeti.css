@@ -1,0 +1,210 @@
+h3{
+    margin:10px;
+    font-size: 42px;
+    font-variant: small-caps;
+    font-family: 'Cinzel', serif;
+    font-style: oblique;
+    color: rgba(12, 18, 94, 0.5);
+}
+.btnModal2{
+    font-size: 30px;
+    padding: 10px;
+    margin-top: 20px;
+    background-color: rgba(19, 196, 209, 0.0);
+    border: none;
+    border-bottom: 3px solid rgb(33, 119, 201);
+    font-variant: small-caps;
+    font-family: 'Cinzel', serif;
+    font-weight: bolder;
+    width:230px;
+    transition: 1s ease-in;
+}
+.btnModal2:hover{
+    cursor: pointer;
+    width:280px;
+}
+.subList tr{
+    position: relative;
+    border-radius: 3%;
+}
+.subTable .row{
+    left:0;
+}
+
+.subList td{
+    width:600px;
+    margin:15px;
+    padding:10px;
+    position: relative;
+}
+
+
+.subList td:hover{
+    background: rgba(67, 96, 122, 0.2);
+}
+.subList td a{
+    border: none;
+    font-variant: small-caps;
+    font-family: 'Cinzel', serif;
+    font-weight: bolder;
+    width:230px;
+    transition: 1s ease-in;
+    text-decoration: none;
+}
+.subList li button{
+    border: none;
+    font-variant: small-caps;
+    font-family: 'Cinzel', serif;
+    font-weight: bolder;
+    background-color: rgba(240, 248, 255, 0);
+    color: rgb(48, 122, 124);
+    font-size: 28px;
+    margin-left: 15px;
+    margin-right: 15px;
+    transition: text-shadow 1.5s, ease 2s;
+}
+.subList li a {
+    width:280px;
+    padding:4px;
+    font-variant: small-caps;
+    font-family: 'Cinzel', serif;
+    font-weight: bolder;
+    background-color: rgba(240, 248, 255, 0);
+    color: rgb(48, 122, 124);
+}
+.subList li button:hover{
+    text-shadow: -1px -1px white, 1px 1px #333;
+    cursor: pointer;
+}
+.subList a:hover{
+    text-shadow: -1px -1px white, 1px 1px #333;
+}
+.subList li{
+    position: relative;
+    text-align: center;
+    left:57%;
+    width:50%;
+}
+.subList{
+    width:60%;
+    overflow-y: scroll;
+}
+
+.subTable {
+    width:700px;
+    list-style-type: none;
+    text-align:justify;
+    position: relative;
+    padding-top: 15px;
+    background: rgba(67, 96, 122, 0.07);
+    font-size: 28px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    display: inline-block;
+    height: 700px;
+    border-radius: 5%;
+    font-family: 'Bree Serif', serif;
+    scrollbar-shadow-color: rgba(27, 45, 61, 0.3);
+}
+.subTable{
+    scrollbar-width: thin;
+    scrollbar-color: rgba(40, 70, 151, 0.5) rgba(49, 134, 109, 0.2);
+  }
+  .subTable tr{
+    width:fit-content;
+  }
+  
+  /* Works on Chrome, Edge, and Safari */
+  .subTable::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  .subTable::-webkit-scrollbar-track {
+    background: rgba(49, 134, 109, 0.2);
+    border-radius: 30px;
+ 
+  }
+  
+  .subTable::-webkit-scrollbar-thumb {
+    background-color: rgba(40, 70, 151, 0.5);
+    border-radius:30px;
+    border: 5px solid rgba(49, 134, 109, 0.2);
+  }
+
+#portal{
+    position: fixed;
+    top: 25%;
+    left: 55%;  
+}
+
+.modalwindow{
+    position: fixed;
+    width:650px;
+    height: 650px;
+    text-align: justify;
+    font-size: 26px;
+    z-index: 1;
+    background-color: rgba(87, 160, 179, 0.5);
+    border-radius: 4%;
+    font-family: 'Bree Serif', serif;
+}
+select, option{
+    font-family: 'Cinzel', serif;
+    font-size: 26px;
+}
+
+.edit1{
+    border: none;
+    font-variant: small-caps;
+    font-family: 'Cinzel', serif;
+    font-weight: bolder;
+    background-color: rgba(240, 248, 255, 0);
+    color: rgb(48, 122, 124);
+    font-size: 30px;
+    margin-left: 15px;
+    margin-right: 15px;
+    transition: text-shadow 1.5s, ease 2s;
+    box-shadow: -5px -5px rgba(211, 216, 215, 0.6), 1px 2px 5px rgba(70, 70, 77, 0.4);
+    position: fixed;
+    width:150px;
+    height:50px;
+    left: 3%;
+    top:65%;
+}
+.edit2{
+    border: none;
+    font-variant: small-caps;
+    font-family: 'Cinzel', serif;
+    font-weight: bolder;
+    background-color: rgba(240, 248, 255, 0);
+    color: rgb(48, 122, 124);
+    font-size: 30px;
+    margin-left: 15px;
+    margin-right: 15px;
+    transition: text-shadow 1.5s, ease 2s;
+    box-shadow: -5px -5px rgba(211, 216, 215, 0.6), 1px 2px 5px rgba(70, 70, 77, 0.4);
+    position: fixed;
+    left: 35%;
+    top:65%;
+    width:150px;
+    height:50px;
+}
+
+.edit1:hover, .edit2:hover{
+    text-shadow: -1px -1px white, 1px 1px #333;
+    cursor: pointer;
+}
+input{
+    font-family: 'Cinzel', serif;
+    font-size: 26px;
+}
+
+.formBody, label{
+    font-size: 26px;
+    font-family: 'Bree Serif', serif;
+}
+.formBody{
+    position: fixed;
+    left:10%;
+    top:20%;
+}

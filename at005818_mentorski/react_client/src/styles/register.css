@@ -1,0 +1,137 @@
+html{
+    background-image: url('./bckground2.bmp');
+    background-repeat: repeat-y;
+    background-size: cover;
+    height:100%;
+    bottom:0;
+}
+.regForm{
+    font-size: 28px;
+    width:100%;
+    height:100%;
+    margin:0;
+    position: static;
+}
+
+#register{
+    position: absolute;
+    left:13%;
+    top:40%;
+    z-index: 1;
+    text-shadow: steelblue 2px 1px 2px ;
+    font-style: oblique;
+    color: rgba(1, 7, 65, 0.5);
+}
+
+#login{
+    position: absolute;
+    left:65%;
+    top:40%;
+    z-index: 1;
+    text-shadow: steelblue 2px 1px 2px ;
+    font-style: oblique; 
+    color:rgb(119, 0, 255);
+    border-bottom:solid rgba(164, 85, 253, 0.7) 1.5px;
+    width:100px;
+    transition: linear 1s width;
+}
+#login:hover{
+    width:150px;
+}
+#regFormContent{
+    position: absolute;
+    border-bottom: solid rgba(0, 189, 247, 0.7) 1.5px;
+    border-left: solid rgba(0, 189, 247, 0.7) 2px;
+    background: linear-gradient(63deg, rgba(44, 55, 56, 0.4) 6%, rgba(94,170,211,0.3) 40%, rgba(255,255,255,0.15) 90%);
+    border-radius: 10px;
+    top:  46%;
+    height: 400px;
+    width: 60%;
+    padding: 20px;
+    padding-left: 30px;
+    left: 10%;
+    margin-top: 20px;
+    
+}
+label{
+    padding: 20px;
+    margin: 20px;
+}
+input, select{
+    height: 40px;
+    width: 250px;
+    margin: 10px;
+    padding: 2px;
+    padding-left:8px;
+    font-size: 24px;
+    border: none;
+    border-bottom: 1.5px solid rgb(65, 180, 225);
+    background-color: rgba(76, 124, 151, 0.2);
+    border-radius: 20px;
+}
+select{
+    background-image: url('./bckground1.bmp');
+}
+#rbtn{
+    position: absolute;
+    right:2%;
+    bottom:10%;
+    font-size: 30px;
+    padding: 15px;
+    background-color: rgba(19, 196, 209, 0.1);
+    border: none;
+    box-shadow: -5px -5px rgba(211, 216, 215, 0.6), 8px 8px 5px rgba(70, 70, 77, 0.4);
+    border-radius: 20px;
+    transition: 1s ease-in;
+    font-variant: small-caps;
+    font-family: 'Cinzel', serif;
+    font-weight: bolder;
+}
+#rbtn:hover{
+    background-color:rgba(19, 196, 209, 0.3);
+}
+#msg{
+    position: absolute;
+    top:40%;
+    left:57%;
+    color: rgb(200, 58, 38);
+    font-weight: bold;
+    font-variant: small-caps;
+}
+#line{
+    height:2px;
+    position:absolute;
+    top:-150%;
+}
+.enrollment{
+    position: absolute;
+    right: 5%;
+    top: -3%;
+    z-index: 1;
+    font-size: 56px;   
+    font-family: 'Cinzel', serif;
+    color:rgba(118, 129, 129, 0.5);
+    font-style: oblique;
+    font-variant: small-caps;
+}
+
+.err{
+    text-align: center;
+    color: rgb(200, 58, 38);
+    position: absolute;
+    left:20%;
+}
+
+.image{
+    background-image: url('./enroll_pic2.bmp');
+    background-repeat: no-repeat;
+    width:100%;
+    height: 540px;
+    position: fixed;
+    background-size: contain;
+    background-color: fffff;
+    z-index: -3;
+    opacity: 0.4;
+    align-items: center; 
+    top:0%;
+}

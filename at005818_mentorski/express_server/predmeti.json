@@ -1,0 +1,13 @@
+[
+{"id":1,   "ime":"Linearna algebra","kod":"SIT001", "program": "Program nije unesen", "bodovi": 5, "semestar_redovni":1, "semestar_izvanredni":1, "izborni":"ne"},
+{"id":2,   "ime":"Fizika", "kod":"SIT002", "program": "Program nije unesen", "bodovi":6, "semestar_redovni":1, "semestar_izvanredni":3, "izborni":"ne"},
+{"id":3,   "ime":"Osnove elektrotehnike", "kod":"SIT003", "program": "Program nije unesen", "bodovi":6, "semestar_redovni":1, "semestar_izvanredni":1, "izborni":"ne"},
+{"id":4,   "ime":"Digitalna i mikroprocesorska tehnika", "kod":"SIT004", "program": "Program nije unesen", "bodovi":7, "semestar_redovni":1, "semestar_izvanredni":2, "izborni":"ne"},
+{"id":5,   "ime":"Uporaba računala", "kod":"SIT005", "program": "Program nije unesen","bodovi": 4, "semestar_redovni":1, "semestar_izvanredni":1, "izborni":"ne"},
+{"id":6,   "ime":"Engleski jezik 1", "kod": "SIT006", "program": "Program nije unesen", "bodovi":2, "semestar_redovni":1, "semestar_izvanredni":1, "izborni":"ne"},
+{"id":7,   "ime":"Analiza 1", "kod":"SIT007", "program": "Program nije unesen", "bodovi":7, "semestar_redovni":2, "semestar_izvanredni":2, "izborni":"ne"},
+{"id":8,   "ime":"Osnove elektronike", "kod":"SIT008", "program": "Program nije unesen", "bodovi":6, "semestar_redovni":2, "semestar_izvanredni":2, "izborni":"ne"},
+{"id":9,   "ime":"Arhitektura i organizacija digitalnih računala", "kod":"SIT009", "program": "Program nije unesen", "bodovi":7, "semestar_redovni":2, "semestar_izvanredni":3, "izborni":"ne"},
+{"id":10,  "ime":"Uvod u programiranje", "kod":"SIT010", "program": "Program nije unesen", "bodovi":8, "semestar_redovni":2, "semestar_izvanredni":3, "izborni":"ne"}
+]
+

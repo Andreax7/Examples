@@ -1,0 +1,83 @@
+.loginForm{
+    position: absolute;
+    top:27%;
+    width: 850px;
+    left:18%;
+    height: 300px;
+    padding:10px;
+    background:linear-gradient(350deg, rgba(129,152,155,0.3) 15%, rgba(142,191,218,0.2) 63%, rgba(255,255,255,0.1) 90%);
+    border-radius: 15px;
+}
+
+#loginForm{
+    margin-top:3%;
+    padding-left: 20px;
+}
+
+.loginComponent{
+    font-size: 30px;
+    margin-left:10px;
+}
+
+.login{
+    font-style: oblique;
+    position: fixed;
+    top:15%;
+    left:15%;
+    text-shadow: steelblue 2px 1px 2px ;
+    color: rgba(1, 7, 65, 0.5);
+}
+#lbtn{
+    position: absolute;
+    font-size: 30px;
+    padding: 15px;
+    left: 15%;
+    margin-top:50px;
+    background-color: rgba(19, 196, 209, 0.1);
+    border: none;
+    
+    border-radius: 20px;
+    transition: 1s ease-in;
+    font-variant: small-caps;
+    font-family: 'Cinzel', serif;
+    font-weight: bolder;
+    box-shadow: -5px -5px rgba(211, 216, 215, 0.6), 8px 8px 5px rgba(70, 70, 77, 0.4);
+    bottom:15%;
+    transition: 1s ease-in;
+}
+#lbtn:hover{
+    background-color: rgba(60, 224, 253, 0.3);
+}
+#back{
+    font-style: oblique;
+    position: fixed;
+    left:55%;
+    top:15%;
+    text-shadow: steelblue 2px 1px 2px ;
+    color:rgb(119, 0, 255);
+    border-bottom:solid rgba(164, 85, 253, 0.7) 1.5px;
+    width:330px;
+    transition: width linear 1s;
+}
+#back:hover{
+    width:380px;
+}
+
+.PasswordError{
+    text-align: center;
+    color: rgb(200, 58, 38);
+    position: absolute;
+    font-weight: bolder;
+    left:20%;
+    top: 30%;
+    width: 100%;
+}
+.emailError{
+    text-align: center;
+    color: rgb(200, 58, 38);
+    position: absolute;
+    font-weight: bolder;
+    left:20%;
+    top: 5%;
+    width: 100%;
+}
