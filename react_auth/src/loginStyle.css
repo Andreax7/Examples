@@ -1,0 +1,108 @@
+.loginComponent{
+    display: flexbox;
+    position: absolute;
+    top: 13%;
+    left: 20%;
+    width: 850px;
+    height: 500px;
+    font-family: 'Quintessential';
+}
+#Logo{
+    position: fixed;   
+    top: 4%; 
+    left: 30%;
+    width: 550px;
+ }
+
+.loginForm{
+    position: absolute;
+    top: 17%;
+    padding: 20px;
+    align-items: center;
+    background: rgba(185, 71, 18, 0.2);
+    border: 2px rgba(226, 82, 15, 0.2) solid ;
+    border-radius: 10px;
+    width: 100%;
+    height: 60%;
+}
+
+#loginForm{
+    position: relative;
+    display: block;
+    top: 30%;
+    left: 3%;
+    font-size: 22px;
+    font-weight: bolder;
+    font-style: oblique;
+    color:rgba(219, 115, 24, 0.8);
+    height: 150px;
+}
+
+input{
+    background-color: rgba(253, 132, 51, 0);
+    color: rgb(247, 141, 48);
+    font-family: 'Architects Daughter', cursive;
+    font-size: 20px;
+    border:none;
+    border-bottom-style: solid;
+    border-radius: 5px;
+    border-bottom-color: rgba(244, 165, 96, 0.2);
+    margin: 7px;
+    margin-left: 15px;
+}
+
+input:focus{
+    background-color: rgba(253, 132, 51, 0.3);
+    border: none;
+}
+
+#lbtn{
+    padding: 5px;
+    position: relative;
+    left: 45%;
+    top: 13%;
+    width: 110px;
+    font-variant: small-caps;
+    font-family: 'Quintessential';
+    font-weight: bolder;
+    font-size: 26px;
+    color:rgb(255, 102, 0);
+    background-color: rgba(255, 218, 185, 0);
+    border-style: none;
+    transition:ease-out color 1s;
+}
+
+#lbtn:hover{
+    color: rgba(167, 255, 2, 0.808);
+    border: rgba(167, 255, 2, 0.2) solid 1px;
+    width: 110px;
+    padding: 5px;
+    margin-bottom:5px;
+}
+
+label{
+    margin: 10px;
+}
+.login{
+    position: fixed;
+    top: 20%;
+    left: 23%;
+    text-shadow: rgba(206, 117, 28, 0.5) 2px 1px 2px;
+    font-size: 34px;
+    color:rgba(124, 54, 8, 0.5);
+    font-style: italic;
+}
+
+#back{
+    position: fixed;
+    top: 19%;
+    right: 43%;
+    text-shadow: rgba(206, 117, 28, 0.5) 2px 1px 2px;
+    font-size: 34px;
+    color:rgba(211, 106, 9, 0.7);
+    font-style: italic;
+    transition: linear 1s color;
+}
+#back:hover{
+    color:rgba(204, 192, 19, 0.5);
+}
