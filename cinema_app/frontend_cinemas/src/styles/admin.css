@@ -1,0 +1,175 @@
+.container{
+    height: 600px;
+    
+}
+
+.admin-grid{
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: 1fr; 
+    grid-template-rows: 1fr 1fr 1fr; 
+}
+.navAdmin{
+    text-align: center;
+    display: inline;
+    height: 50px;
+}
+
+#logoutBTN{
+    position: absolute;
+    top:4%;
+    right:10%;
+    padding: 10px;
+    width: 110px;
+    height: 45px;
+    cursor: pointer;
+    font-family: "Copperplate Gothic Light", sans-serif;
+    box-shadow: 1px 5px 5px rgb(38 66 85);
+    font-weight: bolder;
+    font-size: 18px;
+}
+#logoutBTN {
+    border: none;
+    outline: none;
+    color: #fff;
+    background: rgba(26, 52, 53, 0.938);
+    cursor: pointer;
+    border-radius: 10px;
+    z-index: 0;
+}
+
+#logoutBTN:before {
+    content: '';
+    background: linear-gradient(45deg, #ff0000, #ff7300, #fffb00, #48ff00, #00ffd5, #002bff, #7a00ff, #ff00c8, #ff0000);
+    position: absolute;
+    top: -2px;
+    left:-2px;
+    background-size: 400%;
+    z-index: -1;
+    filter: blur(5px);
+    width: calc(100% + 4px);
+    height: calc(100% + 4px);
+    animation: glowing 20s linear infinite;
+    opacity: 0;
+    transition: opacity .3s ease-in-out;
+    border-radius: 10px;
+}
+
+#logoutBTN:active {
+    color: #000
+}
+
+#logoutBTN:active:after {
+    background: transparent;
+}
+
+#logoutBTN:hover:before {
+    opacity: 1;
+}
+
+#logoutBTN:after {
+    z-index: -1;
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #111;
+    left: 0;
+    top: 0;
+    border-radius: 10px;
+}
+
+@keyframes glowing {
+    0% { background-position: 0 0; }
+    50% { background-position: 400% 0; }
+    100% { background-position: 0 0; }
+}
+
+.forms{
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: 1fr 1fr; 
+    height: 90%;
+}
+.formBox1{
+    height: 350px;
+    background-color: #3b41615b;
+    border-radius: 5%;
+}
+
+.fItem{
+    display: inline-block;
+    box-sizing: border-box;
+    width: 100%;
+}
+.fItem2 input{
+    display: inline-block;
+    box-sizing: border-box;
+    text-align: justify;
+    width: 25%;
+}
+.fItem input{
+    display: inline-block;
+    box-sizing: border-box;
+    text-align: justify;
+    width: 50%;
+}
+.addNewBTN{
+    position: relative;
+    left: 40%;
+    top: 35px;
+    margin: 5px;
+    width: 110px;
+    height: 45px;
+    font-size: large;
+    border-radius: 5px;
+    border-color:#fff;
+    background-color: rgba(218, 233, 233, 0.5);
+    box-shadow: 1px 5px 5px rgb(252, 252, 252);
+    font-family: "Copperplate Gothic Light", sans-serif;
+    cursor: pointer;
+}
+.addNewBTN2{
+    position: relative;
+    left: 40%;
+    bottom:10px;
+    margin: 5px;
+    width: 110px;
+    height: 45px;
+    font-size: large;
+    border-radius: 5px;
+    border-color:#fff;
+    background-color: rgba(218, 233, 233, 0.5);
+    box-shadow: 1px 5px 5px rgb(252, 252, 252);
+    font-family: "Copperplate Gothic Light", sans-serif;
+    cursor: pointer;
+}
+h2{
+    padding:5px;
+    margin: 5px;
+}
+
+#title{
+    color: rgba(0, 0, 0, 0.7);
+    display: inline-block;
+    text-align: justify;
+    height:50px;
+    padding:10px;
+    margin:10px;
+}
+
+.boxItems1{
+    height: fit-content;
+}
+
+.proBox .proBox span{
+    width: 500px;
+    display: inline-block;
+    position: relative;
+    text-align: justify;
+    height:130px;
+}
+.proBox{
+    display: grid;
+    grid-template-columns: 1fr 1fr; 
+}
