@@ -1,0 +1,35 @@
+{
+  "name": "vj6",
+  "version": "14.16.1",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test:run": "ava --serial -r ./ava.main.js -r ./env.js",
+    "dev": "nodemon main.js",
+    "start": "node main.js",
+    "migrate": "node-pg-migrate -f default.json",
+    "migrate:up": "node-pg-migrate -f default.json up --no-check-order",
+    "migrate:down": "node-pg-migrate -f default.json down"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "ava": "^5.1.0",
+    "chai": "^4.3.7",
+    "mocha": "^10.2.0",
+    "nodemon": "^2.0.20",
+    "supertest": "^6.3.3"
+  },
+  "dependencies": {
+    "base64url": "^3.0.1",
+    "bcryptjs": "^2.4.3",
+    "chai-http": "^4.3.0",
+    "dotenv-safe": "^8.2.0",
+    "jsonwebtoken": "^9.0.0",
+    "koa": "^2.13.4",
+    "koa-bodyparser": "^4.3.0",
+    "koa-router": "^12.0.0",
+    "node-pg-migrate": "^6.2.2",
+    "pg": "^8.8.0"
+  }
+}
