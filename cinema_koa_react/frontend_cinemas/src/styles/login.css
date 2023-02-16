@@ -1,0 +1,103 @@
+.Login{
+    align-items: center;
+    display:block;
+    justify-content: center;
+}
+#loginForm{
+    background-color: #9ea5f069;
+    border-radius: 20px;
+    box-sizing: border-box;
+    position: relative;
+    left: 30%;
+    height: 300px;
+    padding: 20px;
+    width: 400px;
+}
+
+#pass{
+    margin:5px;
+    padding:10px;
+    position: relative;
+}
+#name{
+    margin:5px;
+    padding:10px;
+    position: relative;
+    height: 100px;
+}
+span{
+    position: relative;
+    margin:10px;
+    bottom:10px;
+    padding:15px;
+    font-size: 18px;
+}
+input{
+  margin:5px;
+  border-radius: 10px;
+  border: 0;
+  box-sizing: border-box;
+  color: rgb(0, 0, 0);
+  font-size: 16px;
+  height: 40px;
+  outline: 0;
+  padding: 4px 20px 0;
+  width: 100%;
+}
+
+#loginBTN{
+    font-family: "Copperplate Gothic Light", sans-serif;
+    font-weight: bolder;
+    margin:10px;
+    padding:10px;
+    position: relative;
+    box-shadow: 5px 5px 5px 5px rgba(130, 137, 139, 0.568);
+    bottom:5px;
+    left:120px;
+    width:80px;
+    background-color: rgba(240, 248, 255, 0.384);
+    border-radius: 30% none;
+    border-color: rgba(240, 248, 255, 0);
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#lgHeader{
+    margin:15px;
+    padding: 10px;;
+    text-align: center;
+}
+
+#err{
+    margin:15px;
+    padding: 10px;;
+    text-align: center;
+
+}
+
+#signupBTN{
+    font-family: "Copperplate Gothic Light", sans-serif;
+    font-weight: bolder;
+    margin:10px;
+    padding:10px;
+    position: relative;
+    box-shadow: 5px 5px 5px 5px rgba(130, 137, 139, 0.568);
+    bottom:5px;
+    left:100px;
+    width:120px;
+    background-color: rgba(240, 248, 255, 0.384);
+    border-radius: 30% none;
+    border-color: rgba(240, 248, 255, 0);
+    font-size: 16px;
+    cursor: pointer;
+}
+#regForm{
+    background-color: #9ea5f069;
+    border-radius: 20px;
+    box-sizing: border-box;
+    position: relative;
+    left: 30%;
+    height: 400px;
+    padding: 20px;
+    width: 400px;
+}
