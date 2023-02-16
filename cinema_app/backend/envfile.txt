@@ -1,0 +1,4 @@
+DATABASE_URL=postgres://korisnik:DB_PASS@localhost:port/DBname
+PORT_BC=
+DB_PASS=
+BCRYPT_ROUNDS=
